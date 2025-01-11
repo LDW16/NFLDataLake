@@ -100,7 +100,7 @@ def create_glue_table():
                         {"Name": "LastName", "Type": "string"},
                         {"Name": "Team", "Type": "string"},
                         {"Name": "Position", "Type": "string"},
-                        {"Name": "Points", "Type": "int"}
+                        {"Name": "Status", "Type": "string"}
                     ],
                     "Location": f"s3://{bucket_name}/raw-data/",
                     "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
